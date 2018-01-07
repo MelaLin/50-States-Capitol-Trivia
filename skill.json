@@ -1,0 +1,30 @@
+{
+	"skillManifest": {
+		"publishingInformation": {
+			"locales": {
+				"en-US": {
+					"summary": "US State Capitol Trivia ",
+					"examplePhrases": [
+						"Alexa open fifty states capitol trivia",
+						"Alexa tell fifty states capitol trivia to start a game",
+						"Alexa tell fifty states capitol trivia I want to play"
+					],
+					"name": "fifty states capitol trivia ",
+					"description": "US State Capitol Trivia"
+				}
+			},
+			"isAvailableWorldwide": true,
+			"testingInstructions": "Sample Testing Instructions.",
+			"category": "KNOWLEDGE_AND_TRIVIA",
+			"distributionCountries": []
+		},
+		"apis": {
+			"custom": {
+				"endpoint": {
+					"sourceDir": "lambda/custom"
+				}
+			}
+		},
+		"manifestVersion": "1.0"
+	}
+}
